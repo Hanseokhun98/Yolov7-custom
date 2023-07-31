@@ -1,0 +1,10 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./data/train  # 1760 images
+val: ./data/val # 220 images
+
+
+# number of classes
+nc: 4
+
+# class names
+names: [ 'BAR1','BAR2','RACK','PERSON']
